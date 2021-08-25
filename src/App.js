@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "../src/components/Expenses/Expenses";
 
 function App() {
   // const expenseDate = new Date(2021, 2, 28);
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Expense App</h1>
+      <h1 style={{ textAlign: "center", color: "#000000", fontWeight: "normal" }}>Expense App</h1>
 
       <Expenses items={expenses} />
     </div>

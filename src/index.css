@@ -5,12 +5,14 @@
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+ 
 }
 
 h1 {
